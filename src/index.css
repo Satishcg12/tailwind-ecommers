@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* navigation bar */
+
+*{
+    @apply m-0 p-0 box-border
+}
+.navlist{
+    @apply text-gray-50
+}
+.navlist  .active{
+    @apply bg-white rounded text-blue-600
+}
