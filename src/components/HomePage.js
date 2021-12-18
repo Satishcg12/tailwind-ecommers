@@ -7,7 +7,7 @@ const HomePage = () => {
     return (
         <>
             <TopCatagories/>
-            <div className="flex justify-center my-5">
+            <div className="flex justify-center mb-5">
             <TopDealsSlider/>
             </div>
             <div className="">
