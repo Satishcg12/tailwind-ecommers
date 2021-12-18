@@ -1,10 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import SearchPopUp from "./SearchPopUp";
 
 const NavBar = () => {
   return (
     <>
-    <div className="flex justify-evenly py-3 shadow-lg bg-blue-600">
+    <div className="flex justify-around py-3 shadow-lg bg-blue-600">
       <div className="flex">
         <div className="w-32 ">
           <NavLink to="/">
@@ -13,23 +14,19 @@ const NavBar = () => {
             </span>
           </NavLink>
           <p className="text-xs -translate-x-0 lg:-translate-x-10 whitespace-nowrap overflow-x-hidden ">
-            <span className="font-bold text-[#FFD700]">Events:</span>{" "}
-            {<marquee scrollAmount='3' className="text-white ">envent namedfasdfasdfadf</marquee>}
+            <span className="font-bold text-[#FFD700]">Events:<span className="font-normal text-white">todays event</span></span>
+            
           </p>
         </div>
-        <form action="" className="px-5  h-10">
-          <input
-            type="text"
-            className="border-none outline-none w-[40vw] px-3 py-1 rounded-l"
-            />
-          <button
-            type="submit"
-            className="bg-white text-blue-600 py-1 px-2 rounded-r"
-            >
-            <i className="fas fa-search"></i>
-          </button>
-        </form>
+            
       </div>
+      <div>
+
+      </div>
+      <div>
+
+      </div>
+      
       <nav className="navlist hidden  items-center content-center duration-500  md:flex ">
         <div>
           <NavLink to="/" className="navlink text-2xl px-1 mr-5">
@@ -60,7 +57,11 @@ const NavBar = () => {
           </NavLink>
         </div>
       </nav>
-      <nav className="navlist">
+      <nav className="navlist flex items-center">
+        <div className="mr-5">
+
+        <SearchPopUp/>
+        </div>
         <NavLink to="/login" className="text-3xl px-1 mr-5">
           <i className="fas fa-user-secret "></i>
         </NavLink>
@@ -68,6 +69,8 @@ const NavBar = () => {
     </div>
     <nav className="">
     <nav className="navlist flex bg-blue-700 items-center justify-end duration-500  md:hidden p-2 ">
+      
+    
         <div>
           <NavLink to="/" className="navlink text-2xl px-1 mr-5">
             <i className="fas fa-house-damage"></i>
