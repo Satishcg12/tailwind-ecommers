@@ -20,7 +20,8 @@ const SearchPopUp = () => {
         <i className="fas fa-search text-2xl"></i>
       </button>
 
-      <div className="  fixed inset-0 bg-[#0000007a] flex  flex-col items-center justify-center z-20 scale-0 duration-300 h-full" id='searchField' >
+      <div className="  fixed
+       inset-0 bg-[#0000007a] flex  flex-col items-center justify-center z-20 scale-0 duration-300 h-full" id='searchField' >
         
         <div className="bg-white w-11/12 sm:w-10/12 md:w-9/12 h-5/6 rounded-lg text-gray-800  scale-0 duration-500"   id='searchField1'>
           <div className="flex justify-between m-3 px-2 items-center">

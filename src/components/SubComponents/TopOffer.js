@@ -41,10 +41,11 @@ const TopOffer = () => {
       <div className="h-56 grid grid-cols-5">
         <div className="shadow h-full flex flex-col items-center rounded-lg">
           <div className="w-full flex bg-blue-500 h-32 items-center justify-center shadow-lg">
-            <i className="fas fa-funnel-dollar text-6xl text-gray-200"></i>
+            <i className="fas fa-funnel-dollar text-6xl text-gray-200 animate-pulse"></i>
           </div>
-          <div className="pt-5">
-            <button className="shadow-lg bg-blue-600 text-white px-3 py-1 rounded-md">
+          <div className="font-bold">Top deals</div>
+          <div className="pt-2">
+            <button className="shadow-lg bg-blue-600 hover:bg-blue-800 text-white  px-3 py-1 rounded-md">
               view all
             </button>
           </div>
