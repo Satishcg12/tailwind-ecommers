@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
+    <>
     <div className="flex justify-evenly py-3 shadow-lg bg-blue-600">
       <div className="flex">
         <div className="w-32 ">
@@ -20,11 +21,11 @@ const NavBar = () => {
           <input
             type="text"
             className="border-none outline-none w-[40vw] px-3 py-1 rounded-l"
-          />
+            />
           <button
             type="submit"
             className="bg-white text-blue-600 py-1 px-2 rounded-r"
-          >
+            >
             <i className="fas fa-search"></i>
           </button>
         </form>
@@ -38,7 +39,7 @@ const NavBar = () => {
         <div>
           <NavLink to="/cart" className="navlink text-2xl px-1 mr-5">
             <i className="fas fa-cart-plus ">
-              <span className="absolute translate-x-[-50%] top-2 bg-red-500 text-white px-1 rounded-full  text-xs">
+              <span className="absolute translate-x-[-50%] translate-y-[-50%] bg-red-500 text-white px-1 rounded-full  text-xs">
                 1
               </span>
             </i>
@@ -47,7 +48,7 @@ const NavBar = () => {
         <div>
             <NavLink to='/notification' className="navlink text-2xl px-1 mr-5">
             <i class="fas fa-inbox after:absolute">
-            <span className="absolute translate-x-[-50%] top-2 bg-red-500 text-white px-1 rounded-full  text-xs" >
+            <span className="absolute translate-x-[-50%] translate-y-[-50%] bg-red-500 text-white px-1 rounded-full  text-xs" >
                 1
               </span>
             </i>
@@ -65,6 +66,40 @@ const NavBar = () => {
         </NavLink>
       </nav>
     </div>
+    <nav className="">
+    <nav className="navlist flex bg-blue-700 items-center justify-end duration-500  md:hidden p-2 ">
+        <div>
+          <NavLink to="/" className="navlink text-2xl px-1 mr-5">
+            <i className="fas fa-house-damage"></i>
+          </NavLink>
+        </div>
+        <div>
+          <NavLink to="/cart" className="navlink text-2xl px-1 mr-5">
+            <i className="fas fa-cart-plus ">
+              <span className="absolute translate-x-[-50%] translate-y-[-50%]   bg-red-500 text-white px-1 rounded-full  text-xs">
+                1
+              </span>
+            </i>
+          </NavLink>
+        </div>
+        <div>
+            <NavLink to='/notification' className="navlink text-2xl px-1 mr-5">
+            <i class="fas fa-inbox after:absolute">
+            <span className="absolute translate-x-[-50%] translate-y-[-50%] bg-red-500 text-white px-1 rounded-full  text-xs" >
+                1
+              </span>
+            </i>
+            </NavLink>
+        </div>
+        <div>
+          <NavLink to="/settings" className="navlink text-2xl px-1 mr-5">
+            <i className="fas fa-sliders-h"></i>
+          </NavLink>
+        </div>
+      </nav>
+    </nav>
+    </>
+
   );
 };
 
