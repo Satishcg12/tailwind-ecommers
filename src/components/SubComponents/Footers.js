@@ -54,7 +54,7 @@ const Footers = () => {
               </li>
             </ul>
             <div className="flex mx-auto text-white text-center">
-              Copyright Business Name © 2021
+              Copyright Demo FlipKart © 2021
             </div>
           </div>
         </footer>
