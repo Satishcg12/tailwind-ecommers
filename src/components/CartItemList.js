@@ -13,7 +13,7 @@ const CartItemList = (props) => {
           </td>
           <td className="border">$100</td>
 
-          <td className="select-none">
+          <td className="select-none border">
           {quentity<10 &&
 
             <span
@@ -43,14 +43,12 @@ const CartItemList = (props) => {
             }
           </td>
 
-          <td className="">
+          <td className="border">
             <Link to="/productdetail/:id">
-              <span className="bg-red-600 hover:bg-red-800 text-white px-2 py-1 rounded-full shadow-md">
+              <span className="bg-red-600 hover:bg-red-800 text-white px-2 py-1 rounded-full shadow-md mr-3">
                 <i class="fas fa-trash"></i>
               </span>
             </Link>
-          </td>
-          <td className="">
             <Link to="/productdetail/:id">
               <span className="bg-blue-500 hover:bg-blue-800 text-white px-2 py-1 rounded-full shadow-md">
                 <i class="fas fa-info-circle"></i>
