@@ -16,10 +16,12 @@ const TopDealsSlider = () => {
   return (
     <>
       <Slider {...settings} className=" w-full h-60 shadow-lg">
-        <div className=" bg-black h-60 w-auto overflow-hidden"></div>
-        <div className=" bg-blue-200 h-60 ">satusg</div>
-        <div className="w-56 bg-red-700 "></div>
-        <div className="w-56 bg-yellow-600 ">satish</div>
+        <div className=" bg-black h-60 w-auto overflow-hidden text-white">1</div>
+        <div className=" bg-black h-60 w-auto overflow-hidden text-white">2</div>
+        <div className=" bg-black h-60 w-auto overflow-hidden text-white">3</div>
+        <div className=" bg-black h-60 w-auto overflow-hidden text-white">4</div>
+        <div className=" bg-black h-60 w-auto overflow-hidden text-white">5</div>
+        <div className=" bg-black h-60 w-auto overflow-hidden text-white">6</div>
       </Slider>
     </>
   );
