@@ -3,7 +3,7 @@ import CartItemList from "./CartItemList";
 
 const CartPage = () => {
   return (
-    <div>
+    <>
       <center>
         <h1 className="text-gray-600 text-4xl py-7">My Cart</h1>
       </center>
@@ -25,8 +25,9 @@ const CartPage = () => {
                     </th>
                   </tr>
                 </thead>
-
+                
                     <CartItemList quentity={1} itemName="item name" imageUrl="url"/>
+
                 <tfoot className="text-center">
                   <tr>
                     <td colSpan={5}  className="border bg-red-600 rounded text-white" >
@@ -39,13 +40,23 @@ const CartPage = () => {
           </div>
         </div>
         <div className="col-span-1">
-          <div className="m-5 border">
+          <div className="m-5 border rounded-md shadow-lg flex flex-col  p-2">
+            <h1 className="text-2xl m-2 underline">Details</h1>
+            <h3 className="font-bold">Number of item:</h3>
+            <span className="text-gray-400 before:content-['~']">  21</span>    
+            <h3 className="font-bold">Total Price</h3>
+            <span className="text-gray-400 before:content-['~']"> Rs 101001</span>
             
+            <button className="border rounded my-3 bg-green-400 hover:bg-green-600  text-white shadow">Order</button>
 
           </div>
         </div>
       </div>
-    </div>
+      <div className="flex items-center justify-center">
+
+      <h1 className="text-3xl text-center border w-11/12 shadow-lg p-3">You have not added anything to cart</h1>
+      </div>
+    </>
   );
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
-const TopOffer = () => {
+const TopOffer = (props) => {
   var settings = {
     infinite: true,
     speed: 500,
@@ -38,12 +38,12 @@ const TopOffer = () => {
   };
   return (
     <>
-      <div className="h-56 grid grid-cols-5">
+      <div className="h-56 grid grid-cols-5 my-10">
         <div className="shadow h-full flex flex-col items-center rounded-lg">
           <div className="w-full flex bg-blue-500 h-32 items-center justify-center shadow-lg">
             <i className="fas fa-funnel-dollar text-6xl text-gray-200 animate-pulse"></i>
           </div>
-          <div className="font-bold">Top deals</div>
+          <div className="font-bold">{props.title}</div>
           <div className="pt-2">
             <button className="shadow-lg bg-blue-600 hover:bg-blue-800 text-white  px-3 py-1 rounded-md">
               view all

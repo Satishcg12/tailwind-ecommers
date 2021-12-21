@@ -11,7 +11,10 @@ const HomePage = () => {
             <TopDealsSlider/>
             </div>
             <div className="">
-                <TopOffer/>
+                <TopOffer title="top product"/>
+                <TopOffer title="todays deal"/>
+                <TopOffer title="yesterday special"/>
+                <TopOffer title="on sales"/>
             </div>
         </>
     )

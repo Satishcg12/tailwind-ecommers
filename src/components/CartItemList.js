@@ -13,7 +13,7 @@ const CartItemList = (props) => {
           </td>
           <td className="border">$100</td>
 
-          <td className="select-none border">
+          <td className="select-none border ">
           {quentity<10 &&
 
             <span
