@@ -7,7 +7,7 @@ const CartPage = () => {
       <center>
         <h1 className="text-gray-600 text-4xl py-7">My Cart</h1>
       </center>
-      <div className="grid md:grid-cols-3">
+      <div className="grid md:grid-cols-3 ">
         <div className="col-span-2">
           <div className="m-5  min-h-10">
             <div className=" flex justify-center">
@@ -39,7 +39,7 @@ const CartPage = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-1">
+        <center className="col-span-1">
           <div className="m-5 border rounded-md shadow-lg flex flex-col  p-2">
             <h1 className="text-2xl m-2 underline">Details</h1>
             <h3 className="font-bold">Number of item:</h3>
@@ -50,7 +50,7 @@ const CartPage = () => {
             <button className="border rounded my-3 bg-green-400 hover:bg-green-600  text-white shadow">Order</button>
 
           </div>
-        </div>
+        </center>
       </div>
       <div className="flex items-center justify-center">
 
