@@ -6,7 +6,10 @@ function App() {
   return (
     <>
     <NavBar/>
+    <div className='min-h-[85vh]'>
     <Routing/>
+
+    </div>
     <Footers/>
     </>
   );

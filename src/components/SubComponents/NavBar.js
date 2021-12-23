@@ -41,7 +41,7 @@ const NavBar = () => {
           </div>
           <div>
             <NavLink to="/notification" className="navlink text-2xl px-1 mr-5">
-              <i class="fas fa-inbox after:absolute">
+              <i className="fas fa-inbox after:absolute">
                 <span className="absolute translate-x-[-50%] translate-y-[-50%] bg-red-500 text-white px-1 rounded-full  text-xs">
                   1
                 </span>
@@ -50,7 +50,7 @@ const NavBar = () => {
           </div>
           <div>
             <NavLink to="/help" className="navlink text-2xl px-1 mr-5">
-              <i class="far fa-question-circle"></i>
+              <i className="far fa-question-circle"></i>
             </NavLink>
           </div>
           <div>
@@ -86,7 +86,7 @@ const NavBar = () => {
           </div>
           <div>
             <NavLink to="/notification" className="navlink text-2xl px-1 mr-5">
-              <i class="fas fa-inbox after:absolute">
+              <i className="fas fa-inbox after:absolute">
                 <span className="absolute translate-x-[-50%] translate-y-[-50%] bg-red-500 text-white px-1 rounded-full  text-xs">
                   1
                 </span>
@@ -95,7 +95,7 @@ const NavBar = () => {
           </div>
           <div>
             <NavLink to="/help" className="navlink text-2xl px-1 mr-5">
-              <i class="far fa-question-circle"></i>
+              <i className="far fa-question-circle"></i>
             </NavLink>
           </div>
           <div>

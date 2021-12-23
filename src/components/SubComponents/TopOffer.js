@@ -64,13 +64,13 @@ const TopOffer = (props) => {
                 <div>
                   <Link to="/addcart/:id">
                     <span className="bg-green-500 hover:bg-green-800 text-white px-2 py-1 rounded-full shadow-md mr-1">
-                      <i class="fas fa-plus-circle"></i>
+                      <i className="fas fa-plus-circle"></i>
                     </span>
                   </Link>
 
                   <Link to="/productdetail/23">
                     <span className="bg-blue-500 hover:bg-blue-800 text-white px-2 py-1 rounded-full shadow-md">
-                      <i class="fas fa-info-circle"></i>
+                      <i className="fas fa-info-circle"></i>
                     </span>
                   </Link>
                 </div>
@@ -89,13 +89,13 @@ const TopOffer = (props) => {
                 <div>
                   <Link to="/addcart/:id">
                     <span className="bg-green-500 hover:bg-green-800 text-white px-2 py-1 rounded-full shadow-md mr-1">
-                      <i class="fas fa-plus-circle"></i>
+                      <i className="fas fa-plus-circle"></i>
                     </span>
                   </Link>
 
                   <Link to="/productdetail/23">
                     <span className="bg-blue-500 hover:bg-blue-800 text-white px-2 py-1 rounded-full shadow-md">
-                      <i class="fas fa-info-circle"></i>
+                      <i className="fas fa-info-circle"></i>
                     </span>
                   </Link>
                 </div>
@@ -112,13 +112,13 @@ const TopOffer = (props) => {
                 <div>
                   <Link to="/addcart/:id">
                     <span className="bg-green-500 hover:bg-green-800 text-white px-2 py-1 rounded-full shadow-md mr-1">
-                      <i class="fas fa-plus-circle"></i>
+                      <i className="fas fa-plus-circle"></i>
                     </span>
                   </Link>
 
                   <Link to="/productdetail/23">
                     <span className="bg-blue-500 hover:bg-blue-800 text-white px-2 py-1 rounded-full shadow-md">
-                      <i class="fas fa-info-circle"></i>
+                      <i className="fas fa-info-circle"></i>
                     </span>
                   </Link>
                 </div>
@@ -135,13 +135,13 @@ const TopOffer = (props) => {
                 <div>
                   <Link to="/addcart/:id">
                     <span className="bg-green-500 hover:bg-green-800 text-white px-2 py-1 rounded-full shadow-md mr-1">
-                      <i class="fas fa-plus-circle"></i>
+                      <i className="fas fa-plus-circle"></i>
                     </span>
                   </Link>
 
                   <Link to="/productdetail/23">
                     <span className="bg-blue-500 hover:bg-blue-800 text-white px-2 py-1 rounded-full shadow-md">
-                      <i class="fas fa-info-circle"></i>
+                      <i className="fas fa-info-circle"></i>
                     </span>
                   </Link>
                 </div>
@@ -158,13 +158,13 @@ const TopOffer = (props) => {
                 <div>
                   <Link to="/addcart/:id">
                     <span className="bg-green-500 hover:bg-green-800 text-white px-2 py-1 rounded-full shadow-md mr-1">
-                      <i class="fas fa-plus-circle"></i>
+                      <i className="fas fa-plus-circle"></i>
                     </span>
                   </Link>
 
                   <Link to="/productdetail/23">
                     <span className="bg-blue-500 hover:bg-blue-800 text-white px-2 py-1 rounded-full shadow-md">
-                      <i class="fas fa-info-circle"></i>
+                      <i className="fas fa-info-circle"></i>
                     </span>
                   </Link>
                 </div>
@@ -181,13 +181,13 @@ const TopOffer = (props) => {
                 <div>
                   <Link to="/addcart/:id">
                     <span className="bg-green-500 hover:bg-green-800 text-white px-2 py-1 rounded-full shadow-md mr-1">
-                      <i class="fas fa-plus-circle"></i>
+                      <i className="fas fa-plus-circle"></i>
                     </span>
                   </Link>
 
                   <Link to="/productdetail/23">
                     <span className="bg-blue-500 hover:bg-blue-800 text-white px-2 py-1 rounded-full shadow-md">
-                      <i class="fas fa-info-circle"></i>
+                      <i className="fas fa-info-circle"></i>
                     </span>
                   </Link>
                 </div>
@@ -204,13 +204,13 @@ const TopOffer = (props) => {
                 <div>
                   <Link to="/addcart/:id">
                     <span className="bg-green-500 hover:bg-green-800 text-white px-2 py-1 rounded-full shadow-md mr-1">
-                      <i class="fas fa-plus-circle"></i>
+                      <i className="fas fa-plus-circle"></i>
                     </span>
                   </Link>
 
                   <Link to="/productdetail/23">
                     <span className="bg-blue-500 hover:bg-blue-800 text-white px-2 py-1 rounded-full shadow-md">
-                      <i class="fas fa-info-circle"></i>
+                      <i className="fas fa-info-circle"></i>
                     </span>
                   </Link>
                 </div>
@@ -227,13 +227,13 @@ const TopOffer = (props) => {
                 <div>
                   <Link to="/addcart/:id">
                     <span className="bg-green-500 hover:bg-green-800 text-white px-2 py-1 rounded-full shadow-md mr-1">
-                      <i class="fas fa-plus-circle"></i>
+                      <i className="fas fa-plus-circle"></i>
                     </span>
                   </Link>
 
                   <Link to="/productdetail/23">
                     <span className="bg-blue-500 hover:bg-blue-800 text-white px-2 py-1 rounded-full shadow-md">
-                      <i class="fas fa-info-circle"></i>
+                      <i className="fas fa-info-circle"></i>
                     </span>
                   </Link>
                 </div>
@@ -250,13 +250,13 @@ const TopOffer = (props) => {
                 <div>
                   <Link to="/addcart/:id">
                     <span className="bg-green-500 hover:bg-green-800 text-white px-2 py-1 rounded-full shadow-md mr-1">
-                      <i class="fas fa-plus-circle"></i>
+                      <i className="fas fa-plus-circle"></i>
                     </span>
                   </Link>
 
                   <Link to="/productdetail/23">
                     <span className="bg-blue-500 hover:bg-blue-800 text-white px-2 py-1 rounded-full shadow-md">
-                      <i class="fas fa-info-circle"></i>
+                      <i className="fas fa-info-circle"></i>
                     </span>
                   </Link>
                 </div>
@@ -273,13 +273,13 @@ const TopOffer = (props) => {
                 <div>
                   <Link to="/addcart/:id">
                     <span className="bg-green-500 hover:bg-green-800 text-white px-2 py-1 rounded-full shadow-md mr-1">
-                      <i class="fas fa-plus-circle"></i>
+                      <i className="fas fa-plus-circle"></i>
                     </span>
                   </Link>
 
                   <Link to="/productdetail/23">
                     <span className="bg-blue-500 hover:bg-blue-800 text-white px-2 py-1 rounded-full shadow-md">
-                      <i class="fas fa-info-circle"></i>
+                      <i className="fas fa-info-circle"></i>
                     </span>
                   </Link>
                 </div>
@@ -296,13 +296,13 @@ const TopOffer = (props) => {
                 <div>
                   <Link to="/addcart/:id">
                     <span className="bg-green-500 hover:bg-green-800 text-white px-2 py-1 rounded-full shadow-md mr-1">
-                      <i class="fas fa-plus-circle"></i>
+                      <i className="fas fa-plus-circle"></i>
                     </span>
                   </Link>
 
                   <Link to="/productdetail/23">
                     <span className="bg-blue-500 hover:bg-blue-800 text-white px-2 py-1 rounded-full shadow-md">
-                      <i class="fas fa-info-circle"></i>
+                      <i className="fas fa-info-circle"></i>
                     </span>
                   </Link>
                 </div>
