@@ -1,10 +1,10 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import CartPage from './components/CartPage'
-import HomePage from './components/HomePage'
-import LoginPage from './components/LoginPage'
-import NotificationPage from './components/NotificationPage'
-import SettingPage from './components/SettingPage'
+import CartPage from './pages/CartPage'
+import HomePage from './pages/HomePage'
+import LoginPage from './pages/LoginPage'
+import NotificationPage from './pages/NotificationPage'
+import SettingPage from './pages/SettingPage'
 const routing = () => {
     return (
         <div>

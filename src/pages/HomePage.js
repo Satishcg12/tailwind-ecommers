@@ -1,7 +1,7 @@
 import React from 'react'
-import TopCatagories from './SubComponents/TopCatagories'
-import TopDealsSlider from './SubComponents/TopDealsSlider'
-import TopOffer from './SubComponents/TopOffer'
+import TopCatagories from '../components/TopCatagories'
+import TopDealsSlider from '../components/TopDealsSlider'
+import TopOffer from '../components/TopOffer'
 
 const HomePage = () => {
     return (
