@@ -1,24 +1,45 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import PropTypes from 'prop-types'
+
 
 const Notification = (props) => {
+  const {title, category, time, msg } = props
   return (
-    <div className=" grid grid-flow-col border px-2 py-1 rounded-full my-2 shadow-2xl bg-white w-11/12 group">
-      <h1 className="px-3 whitespace-nowrap">{props.title}</h1>
-      <span className=" px-3  w-11/12  whitespace-nowrap overflow-hidden text-ellipsis ">
-        {props.msg}
-      </span>
-      <span className="px-5 justify-self-end group-hover:invisible">
-        {props.time}
-      </span>
-      <span className=" justify-self-end absolute hidden group-hover:flex  duration-75 translate-y-2 group-hover:translate-y-0 ease-in">
-        <i className="far fa-trash-alt hover:text-red-500 hover:border-red-500  rounded-full border mr-2 p-1"></i>
-        <Link to="/product/1212">
-          <i className="fas fa-info  hover:text-blue-500 hover:border-blue-500  rounded-full border mr-2 px-2 py-1"></i>
-        </Link>
-      </span>
+  <>
+    <div className="group border-b relative w-11/12">
+      
+      <h2>
+
+      <span className="text-md font-semibold pr-1 text-blue-500">{title} </span>
+      <span className="text-xs font-thin pr-1 text-gray-500">{category} </span>
+      <span className="text-xs font-mono pr-1 text-gray-500 ">{time}  </span>
+      </h2>
+      <p className="text-sm text-gray-500  whitespace-nowrap overflow-clip text-ellipsis w-11/12 md:max-w-md max-w-xs">
+          {msg} 
+      </p>
+      <div className="absolute right-3 -translate-y-[125%]">
+        <div className="flex  bg-blue-500 text-white rounded-lg text-center">
+          <button className="px-2 py-1 hover:bg-blue-700 rounded-lg hover:text-red-500 "><i className="fas fa-trash"></i></button>
+          <button className="px-2 py-1 hover:bg-blue-700 rounded-lg hover:text-green-400 "  onClickCapture={()=>props.showNotificaionDetials(title,category, time, msg)}><i className="fas fa-info-circle"></i></button>
+        </div>
+      </div>
     </div>
+  </>
   );
 };
 
 export default Notification;
+
+Notification.propTypes={
+  title : PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
+  time: PropTypes.string.isRequired,
+  msg: PropTypes.string.isRequired
+}
+
+Notification.defaultProps = {
+  title:'Error',
+  msg:`sorry can't load notification try again`,
+  time:'error',
+  category:'error'
+}
