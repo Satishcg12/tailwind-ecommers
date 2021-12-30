@@ -15,3 +15,15 @@
 .navlist  .active{
     @apply bg-white rounded text-blue-600
 }
+
+.slick-next{
+    right: 1px;
+    z-index: 1;
+}
+.slick-prev{
+    left: 1px;
+    z-index: 1;
+}
+.slick-next::before , .slick-prev::before{
+    @apply bg-black rounded-full text-white p-0 items-center 
+}

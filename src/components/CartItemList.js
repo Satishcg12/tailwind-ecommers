@@ -22,7 +22,7 @@ const CartItemList = (props) => {
                 setQuentity(quentity + 1);
               }}
             >
-              <i class="fas fa-plus-circle"></i>
+              <i className="fas fa-plus-circle"></i>
             </span>
   }
             <input
@@ -38,7 +38,7 @@ const CartItemList = (props) => {
               className="bg-red-500 hover:bg-red-800 text-white px-2 py-1 rounded-full shadow-md"
               onClick={() => setQuentity(quentity - 1)}
               >
-              <i class="far fa-times-circle"></i>
+              <i className="far fa-times-circle"></i>
             </span>
             }
           </td>
@@ -46,12 +46,12 @@ const CartItemList = (props) => {
           <td className="border">
             <Link to="/productdetail/:id">
               <span className="bg-red-600 hover:bg-red-800 text-white px-2 py-1 rounded-full shadow-md mr-3">
-                <i class="fas fa-trash"></i>
+                <i className="fas fa-trash"></i>
               </span>
             </Link>
             <Link to="/productdetail/:id">
               <span className="bg-blue-500 hover:bg-blue-800 text-white px-2 py-1 rounded-full shadow-md">
-                <i class="fas fa-info-circle"></i>
+                <i className="fas fa-info-circle"></i>
               </span>
             </Link>
           </td>
